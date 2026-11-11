@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Somaya Farand — English teacher and aspiring front-end developer creating responsive, user-friendly web experiences.">
+  <meta name="theme-color" content="#10111b">
+  <title>Somaya Farand — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-nav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home" aria-label="Somaya Farand home"><span class="brand-mark">SF</span><span>Somaya <b>Farand</b></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-socials d-flex gap-3 ms-lg-4 mt-3 mt-lg-0">
+          <a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/somaya-farand-0929a0439/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <button class="theme-toggle ms-lg-3 mt-3 mt-lg-0" id="themeToggle" type="button" aria-label="Switch to light mode" title="Switch theme">
+          <i class="bi bi-sun-fill" id="themeIcon" aria-hidden="true"></i><span id="themeLabel">Light</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero section-space">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="eyebrow-line"></span> WELCOME TO MY PORTFOLIO</div>
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1>Somaya <span>Farand</span></h1>
+            <h2 class="hero-role">English Teacher <span class="role-divider">/</span> Front-End Developer in Progress</h2>
+            <p class="hero-copy">I love bringing ideas to life through thoughtful design, clean code, and meaningful learning experiences.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a class="btn btn-accent" href="#projects">Explore my work <i class="bi bi-arrow-up-right ms-2"></i></a>
+              <a class="btn btn-outline-soft" href="assets/Somaya_Farand_Glassmorphism_CV.pdf" download>Download CV <i class="bi bi-download ms-2"></i></a>
+            </div>
+            <div class="hero-contact d-flex flex-wrap gap-4 mt-4">
+              <a href="mailto:som.frand@gmail.com"><i class="bi bi-envelope"></i> som.frand@gmail.com</a>
+              <a href="tel:+93790978021"><i class="bi bi-telephone"></i> +93 790 978 021</a>
+              <span><i class="bi bi-geo-alt"></i> Herat, Afghanistan</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art" aria-label="Somaya Farand profile photo">
+              <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+              <div class="profile-photo-card">
+                <img src="assets/somaya-profile.jpg" alt="Portrait of Somaya Farand" class="profile-photo">
+                <div class="profile-photo-caption"><span>Somaya Farand</span><small>DESIGN • DEVELOPMENT • TEACHING</small></div>
+              </div>
+              <div class="floating-tag tag-code"><i class="bi bi-code-slash"></i><span>Building with code</span></div>
+              <div class="floating-tag tag-idea"><i class="bi bi-stars"></i><span>Always learning</span></div>
+              <div class="art-caption">A little creativity<br>goes a long way.</div>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO DISCOVER</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-space section-soft">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curiosity is my <span>superpower.</span></h2></div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="glass-panel about-panel h-100">
+              <p class="lead-copy">Hello! I’m Somaya Farand, an English teacher with a background in English Language and Literature and a growing passion for web development.</p>
+              <p>I enjoy learning new technologies and creating clean, responsive, and user-friendly websites. My current toolkit includes HTML, CSS, Bootstrap 5, JavaScript, Git, and GitHub, while I continue exploring modern design tools such as Figma and Framer.</p>
+              <p>My goal is to combine creativity, communication, and technology to build meaningful digital experiences while continuing to grow in both teaching and web development.</p>
+              <div class="about-links">
+                <a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub profile</a>
+                <a href="https://www.linkedin.com/in/somaya-farand-0929a0439/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i> LinkedIn profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="stat-stack h-100">
+              <div class="mini-card"><span class="mini-icon"><i class="bi bi-mortarboard"></i></span><div><h3>Education</h3><p>English Language & Literature<br>Herat State University</p></div></div>
+              <div class="mini-card"><span class="mini-icon"><i class="bi bi-chat-square-heart"></i></span><div><h3>Teaching</h3><p>Private English tutoring and learner support.</p></div></div>
+              <div class="mini-card"><span class="mini-icon"><i class="bi bi-laptop"></i></span><div><h3>Current focus</h3><p>Responsive front-end projects and stronger JavaScript skills.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-space">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY TOOLKIT</p><h2>Skills I’m growing <span>every day.</span></h2><p class="section-subtitle">A practical mix of web technologies, design tools, and communication skills.</p></div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="glass-panel h-100">
+              <h3 class="panel-title"><i class="bi bi-braces"></i> Development & design</h3>
+              <div class="skill-grid">
+                <div class="skill-item"><span class="skill-logo html-logo">5</span><span>HTML5</span></div>
+                <div class="skill-item"><span class="skill-logo css-logo">3</span><span>CSS3</span></div>
+                <div class="skill-item"><span class="skill-logo bs-logo">B</span><span>Bootstrap 5</span></div>
+                <div class="skill-item"><span class="skill-logo js-logo">JS</span><span>JavaScript</span></div>
+                <div class="skill-item"><span class="skill-logo git-logo"><i class="bi bi-git"></i></span><span>Git</span></div>
+                <div class="skill-item"><span class="skill-logo gh-logo"><i class="bi bi-github"></i></span><span>GitHub</span></div>
+                <div class="skill-item"><span class="skill-logo figma-logo"><i class="bi bi-palette"></i></span><span>Figma</span></div>
+                <div class="skill-item"><span class="skill-logo framer-logo"><i class="bi bi-lightning-charge"></i></span><span>Framer</span></div>
+                <div class="skill-item"><span class="skill-logo wp-logo">W</span><span>WordPress <small>Learning</small></span></div>
+                <div class="skill-item"><span class="skill-logo icdl-logo"><i class="bi bi-pc-display"></i></span><span>ICDL</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="glass-panel h-100">
+              <h3 class="panel-title"><i class="bi bi-lightbulb"></i> What I bring</h3>
+              <div class="value-list">
+                <div><span>01</span><p><b>Responsive thinking</b><small>Layouts designed for mobile, tablet, and desktop.</small></p></div>
+                <div><span>02</span><p><b>Continuous learning</b><small>Curiosity, practice, and steady improvement.</small></p></div>
+                <div><span>03</span><p><b>Clear communication</b><small>Teaching experience and a learner-first mindset.</small></p></div>
+                <div><span>04</span><p><b>Team-ready mindset</b><small>Organized work, version control, and collaboration.</small></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-space section-soft">
+      <div class="container">
+        <div class="section-heading d-md-flex justify-content-between align-items-end gap-4"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects with <span>purpose.</span></h2><p class="section-subtitle">A selection of projects from my learning and development journey.</p></div><a class="text-link mb-2" href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer">More on GitHub <i class="bi bi-arrow-up-right"></i></a></div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-skincare"><span class="visual-kicker">BEAUTY • E-COMMERCE</span><div class="skincare-bottle bottle-one"></div><div class="skincare-bottle bottle-two"></div><div class="visual-wordmark">FARAND<span>skin essentials</span></div></div>
+              <div class="project-content"><div class="project-meta"><span>01 / BRAND WEBSITE</span><span class="status-dot">Portfolio project</span></div><h3>Farand — Skincare</h3><p>A polished skincare brand concept focused on product presentation, elegant visual hierarchy, and a responsive shopping-inspired layout.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div><div class="project-actions"><a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer">Source code <i class="bi bi-arrow-up-right"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-furniture"><span class="visual-kicker">INTERIORS • FURNITURE</span><div class="furniture-sun"></div><div class="chair-seat"></div><div class="chair-back"></div><div class="chair-leg leg-a"></div><div class="chair-leg leg-b"></div><div class="furniture-copy">NestCraft<span>Thoughtful spaces.</span></div></div>
+              <div class="project-content"><div class="project-meta"><span>02 / BRAND WEBSITE</span><span class="status-dot">Portfolio project</span></div><h3>NestCraft</h3><p>A furniture and interiors web concept exploring warm tones, clean product storytelling, and a calm, modern browsing experience.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>Responsive UI</span></div><div class="project-actions"><a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer">Source code <i class="bi bi-arrow-up-right"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-clinic"><div class="clinic-window"><div class="clinic-top"><span></span><span></span><span></span></div><div class="clinic-layout"><div class="clinic-side"></div><div class="clinic-main"><div class="clinic-heading"></div><div class="clinic-line"></div><div class="clinic-line short"></div><div class="clinic-doctors"><span></span><span></span><span></span></div><div class="clinic-button"></div></div></div></div><span class="visual-kicker">HEALTHCARE • BOOKING</span></div>
+              <div class="project-content"><div class="project-meta"><span>03 / WEB APP CONCEPT</span><span class="status-dot">Portfolio project</span></div><h3>Clinic Booking System</h3><p>A responsive appointment-booking interface concept with doctor cards, specialty filters, and a booking modal flow.</p><div class="tech-tags"><span>Bootstrap 5</span><span>JavaScript</span><span>CSS</span></div><div class="project-actions"><a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer">Source code <i class="bi bi-arrow-up-right"></i></a></div></div>
+            </article>
+          </div>
+        </div>
+        <p class="project-note"><i class="bi bi-info-circle"></i> Project cards are starter portfolio entries. Replace the GitHub links with each exact repository and add live demo links once those projects are published.</p>
+      </div>
+    </section>
+
+    <!-- CV / Resume -->
+    <section id="cv" class="section-space cv-section">
+      <div class="container">
+        <div class="section-heading d-md-flex justify-content-between align-items-end gap-4">
+          <div><p class="eyebrow">MY RESUME</p><h2>A closer look at <span>my journey.</span></h2><p class="section-subtitle">Explore my Glassmorphism-designed CV below, or download the same PDF version.</p></div>
+          <a class="btn btn-accent mb-2" href="assets/Somaya_Farand_Glassmorphism_CV.pdf" download="Somaya_Farand_Glassmorphism_CV.pdf"><i class="bi bi-download me-2"></i>Download CV</a>
+        </div>
+        <div class="cv-frame-wrap glass-panel">
+          <div class="cv-frame-heading"><span><i class="bi bi-file-earmark-pdf me-2"></i>Somaya Farand · Glassmorphism CV</span><a href="assets/glass-cv/index.html" target="_blank" rel="noopener noreferrer">Open full CV <i class="bi bi-box-arrow-up-right ms-1"></i></a></div>
+          <iframe class="cv-frame cv-html-frame" src="assets/glass-cv/index.html" title="Somaya Farand Glassmorphism Curriculum Vitae" loading="lazy"></iframe>
+          <p class="cv-fallback">The preview above uses the same Glassmorphism CV design. The Download CV buttons download its matching PDF file.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section id="journey" class="section-space">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY JOURNEY</p><h2>Learning, teaching, <span>building.</span></h2></div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="glass-panel h-100">
+              <h3 class="panel-title"><i class="bi bi-mortarboard"></i> Education</h3>
+              <div class="timeline">
+                <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">Approx. 2018–2020</span><h4>Hewad Private High School</h4><p>Secondary education · Herat, Afghanistan</p></div>
+                <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">Approx. 2021–2022</span><h4>Herat State University</h4><p>English Language and Literature</p></div>
+              </div>
+              <p class="small-note">Gregorian year ranges are approximate conversions of Solar Hijri years; update them with exact dates from your documents before publishing.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="glass-panel h-100">
+              <h3 class="panel-title"><i class="bi bi-briefcase"></i> Experience</h3>
+              <div class="timeline">
+                <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">2023–2024 · Approximate</span><h4>Private English Tutor</h4><p>Provided English-language tutoring to private students, supporting learning and language development.</p></div>
+                <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">Ongoing</span><h4>Front-End Development Learning</h4><p>Building practical projects with HTML, CSS, Bootstrap, JavaScript, Git, and GitHub.</p></div>
+              </div>
+              <p class="small-note">Edit the experience dates and wording to match your exact work history.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section-space section-soft">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">PROOF OF LEARNING</p><h2>Certificates & <span>achievements.</span></h2><p class="section-subtitle">A dedicated place for verified certificates, course completions, and recognition.</p></div>
+        <div class="row g-4">
+          <div class="col-md-4"><div class="certificate-card"><span class="certificate-icon"><i class="bi bi-patch-check"></i></span><h3>Professional Certificates</h3><p>Add certificates for web development, design, English, or digital skills when available.</p><span class="certificate-status">Ready for your documents</span></div></div>
+          <div class="col-md-4"><div class="certificate-card"><span class="certificate-icon"><i class="bi bi-award"></i></span><h3>Courses & Training</h3><p>Include course title, issuing organization, completion date, and a verification link if provided.</p><span class="certificate-status">Ready for your documents</span></div></div>
+          <div class="col-md-4"><div class="certificate-card"><span class="certificate-icon"><i class="bi bi-folder2-open"></i></span><h3>Supporting Documents</h3><p>Attach relevant diplomas or appreciation letters only when you are comfortable sharing them publicly.</p><span class="certificate-status">Ready for your documents</span></div></div>
+        </div>
+        <p class="project-note"><i class="bi bi-shield-check"></i> No certificate or award has been claimed here. Add only documents you have actually earned.</p>
+      </div>
+    </section>
+
+    <!-- Languages and profiles -->
+    <section class="section-space compact-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5"><div class="glass-panel h-100"><h3 class="panel-title"><i class="bi bi-translate"></i> Languages</h3><div class="language-row"><div><b>Dari / Persian</b><span>Native</span></div><div class="language-track"><span style="width:100%"></span></div></div><div class="language-row"><div><b>English</b><span>Advanced · self-assessed</span></div><div class="language-track"><span style="width:82%"></span></div></div><p class="small-note">Language levels are self-reported and can be adjusted to reflect your preferred wording.</p></div></div>
+          <div class="col-lg-7"><div class="glass-panel profile-panel h-100"><div><p class="eyebrow">LET'S CONNECT</p><h2>Good work starts with <span>a conversation.</span></h2><p>Open to learning opportunities, creative collaboration, and suitable web projects.</p></div><div class="profile-links"><a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><span><b>GitHub</b><small>github.com/SFarand</small></span><i class="bi bi-arrow-up-right ms-auto"></i></a><a href="https://www.linkedin.com/in/somaya-farand-0929a0439/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i><span><b>LinkedIn</b><small>somaya-farand-0929a0439</small></span><i class="bi bi-arrow-up-right ms-auto"></i></a></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-space contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <p class="eyebrow">CONTACT ME</p><h2>Have an idea? Let’s <span>make it real.</span></h2><p>For collaboration, freelance opportunities, or a friendly hello, feel free to reach out.</p>
+          <a class="btn btn-accent" href="mailto:som.frand@gmail.com?subject=Portfolio%20Inquiry">Email Somaya <i class="bi bi-send ms-2"></i></a>
+          <div class="contact-details"><span><i class="bi bi-envelope"></i> som.frand@gmail.com</span><span><i class="bi bi-geo-alt"></i> Herat, Afghanistan</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"><a class="footer-brand" href="#home">SF<span>.</span> Somaya Farand</a><p>Designed with care · Built to keep learning.</p><div class="footer-socials"><a href="https://github.com/SFarand" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a><a href="https://www.linkedin.com/in/somaya-farand-0929a0439/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="#home" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
