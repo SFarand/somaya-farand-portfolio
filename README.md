@@ -1,30 +1,59 @@
-# Somaya Farand — Portfolio
+# ✨ Somaya Farand | Personal Portfolio
 
-A responsive, dark-luxe personal portfolio built with HTML, CSS, Bootstrap 5, Bootstrap Icons, and a little JavaScript.
+Welcome to my personal portfolio! This website showcases my journey, skills, projects, and passion for technology, creativity, and continuous learning.
 
-## Files
-- `index.html` — page content and sections
-- `style.css` — responsive styling and visual design
-- `script.js` — mobile navigation and active-section behavior
-- `assets/` — place your final CV PDF here
+## 🌐 Live Demo
 
-## Run locally
-Open `index.html` in a browser. For a better development workflow, use the Live Server extension in VS Code.
+[Visit My Portfolio](https://sfarand.github.io/somaya-farand-portfolio/)
 
-## Before publishing
-1. Put your CV PDF in `assets/` and name it `Somaya_Farand_CV.pdf`. The Download CV button expects that path.
-2. Replace each project’s generic GitHub profile link with the exact repository URL.
-3. Add each project’s live demo URL after publishing it.
-4. Confirm education and experience dates against your official records. Solar Hijri year conversions here are approximate.
-5. Add only certificates and awards you have actually earned.
-6. Test the site on mobile, tablet, and desktop.
+## 👩‍💻 About Me
 
-## Publish with GitHub Pages
-Upload these files to a repository, then open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, and save.
+I'm **Somaya Farand**, an English teacher and aspiring Front-End Developer passionate about creating modern, responsive, and user-friendly web experiences.
 
+I enjoy combining creativity, design, and technology to transform ideas into meaningful digital experiences.
 
-## CV and theme switch
-- The current CV PDF is stored at `assets/Somaya_Farand_CV.pdf`.
-- The CV section embeds the PDF in the page and includes a download link.
-- The Light/Dark button switches themes and remembers the visitor's choice in local storage.
-- Keep the `assets` folder alongside `index.html` when publishing the site.
+## 🚀 Skills & Technologies
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Git & GitHub
+- Figma
+- Framer
+- WordPress (Learning)
+- ICDL
+
+## 🎨 Portfolio Features
+
+- Modern and responsive design
+- Personal introduction and professional profile
+- Skills and technology showcase
+- Selected web development projects
+- Education and experience sections
+- Glassmorphism CV preview and download
+- GitHub and LinkedIn integration
+- Contact information
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+
+## 📂 Project Purpose
+
+This portfolio represents my learning journey, practical development experience, creativity, and continuous growth in Front-End Development.
+
+## 📬 Connect With Me
+
+- **GitHub:** [SFarand](https://github.com/SFarand)
+- **LinkedIn:** [Somaya Farand](https://www.linkedin.com/in/somaya-farand-0929a0439/)
+- **Portfolio:** [Live Website](https://sfarand.github.io/somaya-farand-portfolio/)
+
+---
+
+⭐ Thank you for visiting my portfolio!
+
+**Designed with creativity. Built with passion. Inspired by continuous learning.**
